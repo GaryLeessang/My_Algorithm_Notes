@@ -8,8 +8,8 @@
 - The critical condition - i.e., current.next == null (the list is empty) or current.next.next === null (Only one node in the list), Under these conditions, return dummy.next
 - After creating the dummy node, remember to create a pointer - current.
 
-- Time complexity: O(n)  
-- Space complexity: O(1)
+>Time complexity: O(n)  
+ Space complexity: O(1)
 
 ``` java
 class Solution {
