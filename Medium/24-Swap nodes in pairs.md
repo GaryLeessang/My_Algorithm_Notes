@@ -3,8 +3,9 @@
 
 
 ### 1.Iterative 
-> **Tips: Create a dummy node before the first node, then use a pointer "current" to access the linklist and swap the adjacent nodes.Attention:** 
+> **Tips: Create a dummy node before the first node, then use a pointer "current" to access the linklist and swap the adjacent nodes.**
 
+Attention:
 - The critical condition - i.e., current.next == null (the list is empty) or current.next.next === null (Only one node in the list), Under these conditions, return dummy.next
 - After creating the dummy node, remember to create a pointer - current.
 
