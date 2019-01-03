@@ -1,5 +1,5 @@
-## Swap nodes in pairs
-![Alt text](./1546504571241.png)
+## 24.Swap nodes in pairs
+
 
 ### 1.Iterative 
 > **Tips: Create a dummy node before the first node, then use a pointer "current" to access the linklist and swap the adjacent nodes.Attention:** 
@@ -7,8 +7,8 @@
 - The critical condition - i.e., current.next == null (the list is empty) or current.next.next === null (Only one node in the list), Under these conditions, return dummy.next
 - After creating the dummy node, remember to create a pointer - current.
 
-Time complexity: O(n) 
-Space complexity: O(1)
+- Time complexity: O(n)  
+- Space complexity: O(1)
 
 ``` java
 class Solution {
@@ -31,8 +31,7 @@ class Solution {
         return dummy.next;
 	    }
 	}
-
-
-  	
+```
 ###2. Recursion
+  	
  
