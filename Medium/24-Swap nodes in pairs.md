@@ -1,4 +1,5 @@
 ## 24.Swap nodes in pairs
+<img width="572" alt="1" src="https://user-images.githubusercontent.com/30597963/50631004-c3187780-0f7d-11e9-9209-6e538b4c53a5.png">
 
 
 ### 1.Iterative 
@@ -12,7 +13,7 @@
 
 ``` java
 class Solution {
-	    public ListNode swapPairs(ListNode head) {
+	public ListNode swapPairs(ListNode head) {
 	        ListNode dummy = new ListNode(0);
 	        dummy.next = head;
 	        ListNode current = dummy;
@@ -28,10 +29,10 @@ class Solution {
 	            current = current.next.next;
 	        }
         
-        return dummy.next;
-	    }
+        	return dummy.next;
 	}
+}
 ```
-###2. Recursion
+### 2.Recursion
   	
  
